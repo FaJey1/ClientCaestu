@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Authorization2</class>
+ <widget class="QWidget" name="Authorization2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>675</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Регистрация</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{background-color: rgb(47, 47, 47);}</string>
+  </property>
+  <widget class="QPushButton" name="to_login">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>580</y>
+     <width>182</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(47, 47, 47); color: rgb(255, 255, 255); font-size: 13,79px;border-width:0px; border-radius: 0px}</string>
+   </property>
+   <property name="text">
+    <string>Already have an account? Login</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_sign_up">
+   <property name="geometry">
+    <rect>
+     <x>409</x>
+     <y>120</y>
+     <width>92</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24px; font-weight:600; color:#ffffff;&quot;&gt;Sign up&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>500</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{font-size: 10px; color: rgb(255, 255, 255)}</string>
+   </property>
+   <property name="text">
+    <string>I agree with Terms and Privacy</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="main_frame">
+   <property name="geometry">
+    <rect>
+     <x>265</x>
+     <y>243</y>
+     <width>370</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="text_emal">
+      <property name="styleSheet">
+       <string notr="true">QLabel{max-width:352px; max-height:16px; min-width:352px; min-height:16px}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14px; font-weight:600; color:#ffffff;&quot;&gt;Email&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="input_email">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{background-color: rgb(41, 90, 109); color: rgb(255, 255, 255); border-style: solid; border-width:0px; border-radius: 15px; border-color:rgb(41, 90, 109); max-width:352px; max-height:35px; min-width:352px; min-height: 35px}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="text_username">
+      <property name="styleSheet">
+       <string notr="true">QLabel{max-width:352px; max-height:16px; min-width:352px; min-height:16px}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14px; font-weight:600; color:#ffffff;&quot;&gt;Username&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="input_username">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{background-color: rgb(41, 90, 109); color: rgb(255, 255, 255); border-style: solid; border-width:0px; border-radius: 15px; border-color:rgb(41, 90, 109); max-width:352px; max-height:35px; min-width:352px; min-height: 35px}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="text_password">
+      <property name="styleSheet">
+       <string notr="true">QLabel{max-width:352px; max-height:16px; min-width:352px; min-height:16px}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14px; font-weight:600; color:#ffffff;&quot;&gt;Password&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="input_password">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{background-color: rgb(41, 90, 109); color: rgb(255, 255, 255); border-style: solid; border-width:0px; border-radius: 15px; border-color:rgb(41, 90, 109); max-width:352px; max-height:35px; min-width:352px; min-height: 35px}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="text_confirm_password">
+      <property name="styleSheet">
+       <string notr="true">QLabel{max-width:352px; max-height:16px; min-width:352px; min-height:16px}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14px; font-weight:600; color:#ffffff;&quot;&gt;Confirm password&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="input_confirm_password">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{background-color: rgb(41, 90, 109); color: rgb(255, 255, 255); border-style: solid; border-width:0px; border-radius: 15px; border-color:rgb(41, 90, 109); max-width:352px; max-height:35px; min-width:352px; min-height: 35px}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="to_sign_up">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>540</y>
+     <width>200</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:  rgb(255, 255, 255); color: rgb(47, 47, 47); font-size: 14px; border-radius: 15px; font-weight:600  px}
+</string>
+   </property>
+   <property name="text">
+    <string>Sign up</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
